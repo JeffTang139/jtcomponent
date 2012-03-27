@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DNA SQL Parser base on ANTLR
+Bundle-SymbolicName: org.eclipse.jt.sql.assist.parser.antlr
+Bundle-Version: 1.0.0
+Bundle-Vendor: jt
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.jt.script.assist,
+ org.eclipse.jt.sql.assist.core,
+ org.antlr.runtime
+Export-Package: org.eclipse.jt.sql.assist.parser.antlr,
+ org.eclipse.jt.sql.assist.parser.internal.antlr;x-internal:=true,
+ org.eclipse.jt.sql.assist.parser.internal.antlr.parsers;x-internal:=true,
+ org.eclipse.jt.sql.assist.parser.internal.antlr.util;x-internal:=true

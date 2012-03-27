@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Script Assitance Interface
+Bundle-SymbolicName: org.eclipse.jt.script.assist
+Bundle-Version: 1.0.0
+Bundle-Vendor: jt
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: org.eclipse.jt.script.assist,
+ org.eclipse.jt.script.assist.analysis,
+ org.eclipse.jt.script.assist.backend,
+ org.eclipse.jt.script.assist.extension,
+ org.eclipse.jt.script.assist.frontend,
+ org.eclipse.jt.script.assist.visit
